@@ -1,14 +1,10 @@
-/*
- *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
- */
-
 @import "partials/variables.scss";
 @import "partials/mixins.scss";
 @import "partials/base.scss";
 @import "partials/responsive.scss";
 @import "vendors/typed.scss";
 
-// Navigation
+
 .main-nav {
 	background: lighten($secondary, 65%);
 	padding-top: 23px;
