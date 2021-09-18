@@ -136,23 +136,15 @@ a:hover {
     font-size: 0.9375em;
     color: #8c8c8c; }
 
-.quote {
-  background: url(../img/bg.jpg);
-  padding: 20px 0px;
-  margin-top: 120px; }
-  .quote h1 {
-    margin: 100px 0px;
-    padding: 40px 20px;
-    border: 5px solid #fff;
-    color: #fff; }
-
 footer {
   padding: 50px 0px 0px 0px; }
+  footer h3 {
+    margin-right: 20px; }
   footer .social li {
     display: inline;
     margin-right: 20px; }
     footer .social li a {
       font-size: 1.25em;
-      color: #999999; }
+      color: #666666; }
 
 /*# sourceMappingURL=custom.css.map */
