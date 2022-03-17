@@ -55,6 +55,9 @@
 			font-size: 330px;
 			z-index: -1;
 			color: lighten($secondary, 65%);
+			@media only screen and (min-width: 120px) and (max-width: 580px) {
+				left: -60px;			
+			}
 		}
 		span {
 			font-size: 27px;
