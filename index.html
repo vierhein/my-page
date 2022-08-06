@@ -103,15 +103,15 @@
 		<div class="container">
 			<h1>Courses</h1>
 			<ul class="courses-list list-flat">
-				<li>Automated Testing</li>
+				<li>DevOps Fundamentals</li>
 				<li>EPAM Training Center</li>
 				<i class="fa fa-calendar location-calend"> 2021</i>
 			</ul>
 			<ul class="courses-list list-flat">
-				<li>DevOps Fundamentals</li>
+				<li>Automated Testing</li>
 				<li>EPAM Training Center</li>
-				<i class="fa fa-calendar location-calend"> 2020</i>
-			</ul>
+				<i class="fa fa-calendar location-calend"> 2021</i>
+			</ul>			
 			<ul class="courses-list list-flat">
 				<li>Development on Node.js</li>
 				<li>RS School</li>
@@ -167,9 +167,9 @@
 			<h3>Contact me</h3>
 			<ul class="social list-flat">						
 				<li><a href="mailto:vierhein@gmail.com"><i class="fa fa-envelope"></i></a></li>
-				<li><a target="_blank" href="https://t.me/vierhein"><i class="fa fa-send"></i></a></li>
+				<li><a target="_blank" href="https://t.me/loshadka3"><i class="fa fa-send"></i></a></li>
 				<li><a target="_blank" href="https://github.com/vierhein"><i class="fa fa-github"></i></a></li>
-				<li><a target="_blank" href="https://www.linkedin.com/in/andrew-faleichyk-b35b911a1/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/andrew-faleichyk/"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
 		</div>
 	</footer>
@@ -179,10 +179,21 @@
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
     <script>
-		function newTyped(){}$(function(){$("#typed").typed({
-		strings: ["Web Apps", "Mobile Apps", "Android", "iOS", "MacOS", "Linux", "Windows"],
-
-		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+		function newTyped() {}
+		$(function() {
+			$("#typed").typed({
+				strings: ["Web Apps", "Mobile Apps", "Android", "iOS", "MacOS", "Linux", "Windows"],
+				typeSpeed: 90,
+				backDelay: 700,
+				contentType: "html",
+				loop: !0,
+				resetCallback: function() {
+					newTyped()
+				}
+			}), $(".reset").click(function() {
+				$("#typed").typed("reset")
+			})
+		});
     </script>
 </body>
 </html>
