@@ -50,13 +50,15 @@
 	h1 {
 		&:before {
 			position: absolute;
-			left: -220px;
+			left: -450px;
 			top: -150px;
 			font-size: 330px;
 			z-index: -1;
 			color: lighten($secondary, 65%);
 			@media only screen and (min-width: 120px) and (max-width: 580px) {
-				left: -60px;			
+				font-size: 100px;
+				left: -20px;
+				top: -140px;			
 			}
 		}
 		span {

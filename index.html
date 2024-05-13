@@ -14,7 +14,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
 		.intro h1:before {
-			content: 'QA';
+			content: 'DevOps';
 		}
 	</style>
 </head>
@@ -40,7 +40,7 @@
 
 	<div class="intro section" id="about">
 		<div class="container">
-			<p>Hi, I’m Andrew - QA Engineer <i class="fa fa-map-marker location-calend"> Lithuania, Vilnius</i></p>
+			<p>Hello, I’m Andrew - DevOps Engineer <i class="fa fa-map-marker location-calend"> Belarus, Minsk</i></p>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
 					<img src="img/ava.jpg" alt="Avatar">
@@ -49,7 +49,7 @@
 					<h1>I work with<br><span id="typed"></span></h1>
 				</div>
 				<p>
-					Broad knowledge of software testing techniques, software development and SDLC. Strong positive attitude to learning new tools and technologies.					
+					Broad knowledge of software development, maintenance and SDLC. Strong positive attitude to learning new tools and technologies.					
 				</p>
 				<h4>Education</h4>
 				<p> 
@@ -69,9 +69,17 @@
 		<div class="container">
 			<h1>Work<br>Experiences</h1>
 			<ul class="work-list">
+				<li><a target="_blank" href="https://idt.by/">IDT</a></li>
+				<li>DevOps Engineer Paid Internship</li>				
+				<li class="list-date">Feb. 2024 - Ongoing</li>
+				<p>
+				- Implementation <a target="_blank" href="https://backstage.io/">Backstage</a> (from PoC to Production ready solution)
+				</p>
+			</ul>
+			<ul class="work-list">
 				<li><a target="_blank" href="https://spur-i-t.com/">SpurIT</a></li>
 				<li>QA Engineer</li>				
-				<li class="list-date">Mar. 2022 - Ongoing</li>
+				<li class="list-date">Mar. 2022 - Sept. 2023</li>
 				<p>
 				- Manual software testing, functional testing, and test cases writing
 				</p>
@@ -88,7 +96,7 @@
 				<li>Customer Support</li>
 				<li class="list-date">Sept. 2019 - Dec. 2020</li>
 				<p>
-					- Issue processing about projects through chats,e-mail and calls <br>
+					- Issue processing about projects through chats, e-mail and calls <br>
 					- Work with payment systems
 				</p>
 			</ul>
@@ -108,11 +116,6 @@
 				<li>EPAM Training Center</li>
 				<i class="fa fa-calendar location-calend"> 2021</i>
 			</ul>
-			<ul class="courses-list list-flat">
-				<li>Automated Testing</li>
-				<li>EPAM Training Center</li>
-				<i class="fa fa-calendar location-calend"> 2021</i>
-			</ul>
 		</div>
 	</div>
 
@@ -120,32 +123,57 @@
 		<div class="container">
 			<h1>Technical<br>Skills</h1>
 			<ul class="skill-list list-flat">
-				<li>Manual Testing</li>
-				<li>Browser Stack / Postman / Fiddler / Burp</li>
+				<li>OS</li>
+				<li>Linux: CentOS, Ubunu / MacOS </li>
+				<li>CLI: Bash </li>
 			</ul>
 			<ul class="skill-list list-flat">
-				<li><a target="_blank" href="https://github.com/vierhein/autotests">Automation</a></li>
-				<li>Selenoid / WebdriverIO / Cucumber / Appium / Allure</li>
-			</ul>			
-			<ul class="skill-list list-flat">
-				<li>Load & Perfomance</li>
-				<li>JMeter / K6</li>
+				<li>Cloud</li>
+				<li>AWS: EC2, S3, ECS, RDS, IAM, CloudFront</li>
 			</ul>
 			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li>HTML / CSS / JavaScript / SQL</li>
+				<li>IaC</li>
+				<li>Ansible / Terraform</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Containers</li>
+				<li>Docker</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Containers Orchestration</li>
+				<li>Docker Compose / Kubernetes</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>CI/CD</li>
+				<li>Jenkins / GitHub Actions</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Databases</li>
+				<li>MongoDB / PostgreSQL / influxDB </li>
 			</ul>
 			<ul class="skill-list list-flat">
 				<li>VCS</li>
 				<li>Git</li>
 			</ul>
 			<ul class="skill-list list-flat">
-				<li>DevOps</li>
-				<li>Jenkins / GitLab CI / Docker / K8S / Ansible / Bash </li>
+				<li>Logging</li>
+				<li>Elasticsearch / Logstash / Beats</li>
 			</ul>
 			<ul class="skill-list list-flat">
-				<li>Management Tools</li>
-				<li>Jira</li>
+				<li>Monitoring</li>
+				<li>Zabbix / Prometheus / Grafana / Kibana</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / JavaScript / SQL / Networks</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li><a target="_blank" href="https://github.com/vierhein/autotests">Automation Testing</a></li>
+				<li>Selenoid / WebdriverIO / Cucumber / Appium / Allure</li>
+			</ul>			
+			<ul class="skill-list list-flat">
+				<li>Load & Perfomance</li>
+				<li>JMeter / K6</li>
 			</ul>
 		</div>
 	</div>
@@ -170,7 +198,7 @@
 		function newTyped() {}
 		$(function() {
 			$("#typed").typed({
-				strings: ["Web Apps", "Mobile Apps", "Android", "iOS", "MacOS", "Linux", "Windows"],
+				strings: ["Kubernetes", "Helm", "ArgoCD", "Jenkins", "AWS", "Linux"],
 				typeSpeed: 90,
 				backDelay: 700,
 				contentType: "html",

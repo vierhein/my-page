@@ -96,14 +96,16 @@ a:hover {
     font-size: 27px; }
     .intro h1:before {
       position: absolute;
-      left: -220px;
+      left: -450px;
       top: -150px;
       font-size: 330px;
       z-index: -1;
       color: #f4f4f4; }
       @media only screen and (min-width: 120px) and (max-width: 580px) {
         .intro h1:before {
-          left: -60px; } }
+          font-size: 100px;
+          left: -20px;
+          top: -140px; } }
     .intro h1 span {
       font-size: 27px; }
   .intro .location-calend {
