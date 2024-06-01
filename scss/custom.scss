@@ -55,8 +55,8 @@
 			z-index: -1;
 			color: lighten($secondary, 65%);
 			@media only screen and (min-width: 120px) and (max-width: 580px) {
-				left: -20px;
-				top: -240px;			
+				left: -137px;
+				top: -283px;			
 			}
 		}
 		span {
@@ -148,4 +148,8 @@ footer {
     border-bottom: 4px solid #dcdadc;
 	margin-left: 510px;
 	margin-right: 530px;
+	@media only screen and (min-width: 120px) and (max-width: 580px) {
+		margin-left: 0px;
+		margin-right: 0px;
+	}	
 }

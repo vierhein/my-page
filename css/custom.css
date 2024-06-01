@@ -102,8 +102,8 @@ a:hover {
       color: #f4f4f4; }
       @media only screen and (min-width: 120px) and (max-width: 580px) {
         .intro h1:before {
-          left: -20px;
-          top: -240px; } }
+          left: -137px;
+          top: -283px; } }
     .intro h1 span {
       font-size: 27px; }
   .intro .location-calend {
@@ -159,5 +159,9 @@ footer {
   border-bottom: 4px solid #dcdadc;
   margin-left: 510px;
   margin-right: 530px; }
+  @media only screen and (min-width: 120px) and (max-width: 580px) {
+    .border-wrap {
+      margin-left: 0px;
+      margin-right: 0px; } }
 
 /*# sourceMappingURL=custom.css.map */
