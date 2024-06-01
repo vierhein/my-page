@@ -97,7 +97,7 @@ a:hover {
     .intro h1:before {
       position: absolute;
       left: -150px;
-      top: -120px;
+      top: -151px;
       z-index: -1;
       color: #f4f4f4; }
       @media only screen and (min-width: 120px) and (max-width: 580px) {
@@ -152,5 +152,12 @@ footer {
     footer .social li a {
       font-size: 1.25em;
       color: #666666; }
+
+.border-wrap {
+  border-left: 4px solid #dcdadc;
+  border-right: 4px solid #dcdadc;
+  border-bottom: 4px solid #dcdadc;
+  margin-left: 510px;
+  margin-right: 530px; }
 
 /*# sourceMappingURL=custom.css.map */
