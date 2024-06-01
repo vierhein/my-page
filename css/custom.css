@@ -80,7 +80,7 @@ a:hover {
 .section .container {
   position: relative; }
   .section .container h1 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     position: relative; }
 
 .intro {
@@ -96,16 +96,14 @@ a:hover {
     font-size: 27px; }
     .intro h1:before {
       position: absolute;
-      left: -450px;
-      top: -150px;
-      font-size: 330px;
+      left: -150px;
+      top: -120px;
       z-index: -1;
       color: #f4f4f4; }
       @media only screen and (min-width: 120px) and (max-width: 580px) {
         .intro h1:before {
-          font-size: 100px;
           left: -20px;
-          top: -140px; } }
+          top: -240px; } }
     .intro h1 span {
       font-size: 27px; }
   .intro .location-calend {

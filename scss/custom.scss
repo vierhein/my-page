@@ -27,7 +27,7 @@
 	.container {
 		position: relative;
 		h1 {
-			margin-bottom: 30px;
+			margin-bottom: 60px;
 			position: relative;
 		}
 	}
@@ -50,15 +50,13 @@
 	h1 {
 		&:before {
 			position: absolute;
-			left: -450px;
-			top: -150px;
-			font-size: 330px;
+			left: -150px;
+			top: -120px;
 			z-index: -1;
 			color: lighten($secondary, 65%);
 			@media only screen and (min-width: 120px) and (max-width: 580px) {
-				font-size: 100px;
 				left: -20px;
-				top: -140px;			
+				top: -240px;			
 			}
 		}
 		span {
