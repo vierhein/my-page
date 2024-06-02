@@ -5,20 +5,20 @@
 @import "vendors/typed.scss";
 
 
-.main-nav {
-	background: lighten($secondary, 65%);
-	padding-top: 23px;
-	nav {
-		ul li {
-			a {
-				color: lighten($secondary, 35%);
-			}
-			&.active a {
-				color: lighten($primary, 10%);
-			}
-		}
-	}
-}
+// .main-nav {
+// 	background: lighten($secondary, 65%);
+// 	padding-top: 23px;
+// 	nav {
+// 		ul li {
+// 			a {
+// 				color: lighten($secondary, 35%);
+// 			}
+// 			&.active a {
+// 				color: lighten($primary, 10%);
+// 			}
+// 		}
+// 	}
+// }
 
 .section {
 	&.second{
@@ -34,6 +34,7 @@
 }
 
 .intro {
+	margin-top: 100px;
 	padding: 95px 0px 70px 0px;
 	overflow-x: hidden;
 
@@ -143,13 +144,24 @@ footer {
 }
 
 .border-wrap {
+	background-color: rgba(220, 218, 220, 0.2);
 	border-left: 4px solid #dcdadc;
     border-right: 4px solid #dcdadc;
     border-bottom: 4px solid #dcdadc;
+	margin-top: 1px;
 	margin-left: 510px;
 	margin-right: 530px;
 	@media only screen and (min-width: 120px) and (max-width: 580px) {
-		margin-left: 0px;
-		margin-right: 0px;
-	}	
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.cowsay {
+		position: absolute;
+		margin-top: 400px;
+		margin-left: 350px;
+		@media only screen and (min-width: 120px) and (max-width: 580px) {
+			margin-top: 590px;
+			margin-left: 90px;
+		}
+	}
 }
