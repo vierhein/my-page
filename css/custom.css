@@ -76,8 +76,7 @@ a:hover {
     position: relative; }
 
 .intro {
-  margin-top: 100px;
-  padding: 95px 0px 70px 0px;
+  padding: 30px 0px 50px 20px;
   overflow-x: hidden; }
   .intro img {
     width: 81px;
@@ -87,16 +86,6 @@ a:hover {
     margin: 30px 0px; }
   .intro h1 {
     font-size: 27px; }
-    .intro h1:before {
-      position: absolute;
-      left: -150px;
-      top: -151px;
-      z-index: -1;
-      color: #f4f4f4; }
-      @media only screen and (min-width: 120px) and (max-width: 580px) {
-        .intro h1:before {
-          left: -137px;
-          top: -283px; } }
     .intro h1 span {
       font-size: 27px; }
   .intro .location-calend {
@@ -106,6 +95,7 @@ a:hover {
         padding-left: 10px; } }
 
 .work .work-list {
+  padding-left: 20px;
   margin-left: 0px; }
   .work .work-list li {
     list-style: none;
@@ -124,12 +114,14 @@ a:hover {
     font-size: 0.75em; }
 
 .courses .courses-list {
+  padding-left: 20px;
   margin-left: 0px; }
   .courses .courses-list i {
     font-size: 0.9375em;
     color: #8c8c8c; }
 
 .skills .skill-list {
+  padding-left: 20px;
   margin-left: 0px; }
   .skills .skill-list li:first-child {
     font-size: 0.9375em;
@@ -151,20 +143,20 @@ footer {
   border-left: 4px solid #dcdadc;
   border-right: 4px solid #dcdadc;
   border-bottom: 4px solid #dcdadc;
-  margin-top: 1px;
-  margin-left: 510px;
-  margin-right: 530px; }
+  margin-top: 100px;
+  margin-left: 33%;
+  margin-right: 33%; }
   @media only screen and (min-width: 120px) and (max-width: 580px) {
     .border-wrap {
       margin-left: 5px;
       margin-right: 5px; } }
   .border-wrap .cowsay {
     position: absolute;
-    margin-top: 400px;
-    margin-left: 350px; }
+    margin-top: 20%;
+    margin-left: 15%; }
     @media only screen and (min-width: 120px) and (max-width: 580px) {
       .border-wrap .cowsay {
-        margin-top: 590px;
+        margin-top: 500px;
         margin-left: 90px; } }
 
 /*# sourceMappingURL=custom.css.map */
